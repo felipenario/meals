@@ -29,14 +29,14 @@ class MainDrawer extends StatelessWidget {
             height: 120,
             width: double.infinity,
             padding: EdgeInsets.all(20),
-            color: Theme.of(context).accentColor,
+            color: Theme.of(context).primaryColor,
             alignment: Alignment.bottomRight,
             child: Text(
               'Vamos Cozinhar',
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.w900,
-                color: Theme.of(context).primaryColor,
+                color: Colors.white,
               ),
             ),
           ),
